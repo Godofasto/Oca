@@ -1,0 +1,55 @@
+.contenedor{
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablero{
+    background-image: url(../../assets/tablero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 80vh;
+}
+.casillas{
+    background-color: rgb(255, 0, 221);
+    height: 7px;
+    width: 7px;
+    position: absolute;
+}
+.ficha1{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-image: url(../../assets/capy.png);
+    background-size: cover;
+}
+.c1{
+    top: 720px;
+    left: 680px;
+}
+.c2{
+    top: 720px;
+    left: 755px;
+}
+.c3{
+    top: 720px;
+    left: 815px;
+}
+.c4{
+    top: 720px;
+    left: 875px;
+}
+.c5{
+    top: 720px;
+    left: 934px;
+}
+.c6{
+    top: 720px;
+    left: 1003px;
+}
+.c7{
+    top: 720px;
+    left: 1077px;
+}
