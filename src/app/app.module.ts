@@ -3,15 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BoardComponent } from './board/board.component';
-import { PlayerComponent } from './player/player.component';
-import { DiceComponent } from './dice/dice.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    BoardComponent,
-    PlayerComponent,
-    DiceComponent
+    BoardComponent
   ],
   imports: [
     BrowserModule

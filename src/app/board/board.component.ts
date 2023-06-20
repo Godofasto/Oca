@@ -50,6 +50,15 @@ export class BoardComponent {
     console.log(this.resultadoDado);
     console.log('Posicion 1:')
     console.log(this.posicion1);
+    if(this.posicion1 > 63){
+      var calculo = this.posicion1 - 63;
+      this.posicion1 = 63 - calculo;
+    }
+    else if(this.posicion1 == 63){
+      this.finalizarJuego();
+      this.eventos1.push("Victoria para el jugador 1")
+      this.eventos2.push("Victoria para el jugador 1");
+    }
   }
   moverFicha2SinComprobar() {
     this.resultadoDado = 2;
@@ -59,6 +68,15 @@ export class BoardComponent {
     console.log(this.resultadoDado);
     console.log('Posicion 2:')
     console.log(this.posicion2);
+    if(this.posicion2 > 63){
+      var calculo = this.posicion2 - 63;
+      this.posicion2 = 63 - calculo;
+    }
+    else if(this.posicion2 == 63){
+      this.finalizarJuego();
+      this.eventos1.push("Victoria para el jugador 2")
+      this.eventos2.push("Victoria para el jugador 2");
+    }
   }
   turnos() {
     // this.reiniciarContadorPosada();
