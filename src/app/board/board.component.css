@@ -13,7 +13,7 @@
     height: 80vh;
 }
 .casillas{
-    background-color: rgb(255, 0, 221);
+    
     height: 7px;
     width: 7px;
     position: absolute;
@@ -25,31 +25,662 @@
     background-image: url(../../assets/capy.png);
     background-size: cover;
 }
+.ficha2{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    background-size: cover;
+    background-image: url(../../assets/parrot.png);
+}
 .c1{
-    top: 720px;
+    top: 740px;
     left: 680px;
 }
+.c1_2{
+    top: 710px;
+    left: 690px;
+}
 .c2{
-    top: 720px;
+    top: 740px;
+    left: 745px;
+}
+.c2_2{
+    top: 710px;
     left: 755px;
 }
 .c3{
-    top: 720px;
+    top: 740px;
+    left: 806px;
+}
+.c3_2{
+    top: 710px;
     left: 815px;
 }
 .c4{
-    top: 720px;
+    top: 740px;
+    left: 865px;
+}
+.c4_2{
+    top: 710px;
     left: 875px;
 }
+
 .c5{
-    top: 720px;
-    left: 934px;
+    top: 740px;
+    left: 914px;
 }
+.c5_2{
+    top: 710px;
+    left: 924px;
+}
+
 .c6{
-    top: 720px;
-    left: 1003px;
+    top: 740px;
+    left: 983px;
 }
+.c6_2{
+    top: 710px;
+    left: 993px;
+}
+
 .c7{
-    top: 720px;
-    left: 1077px;
+    top: 740px;
+    left: 1057px;
 }
+.c7_2{
+    top: 710px;
+    left: 1067px;
+}
+
+.c8{
+    top: 740px;
+    left: 1110px;
+}
+.c8_2{
+    top: 710px;
+    left: 1120px;
+}
+
+.c9{
+    left: 1180px;
+    top: 710px;
+}
+.c9_2{
+    top: 690px;
+    left: 1185px;
+}
+.c10{
+    left: 1250px;
+    top: 660px;
+}
+.c10_2{
+    left: 1245px;
+    top: 640px;
+}
+
+.c11{
+    left: 1295px;
+    top: 600px;
+}
+.c11_2{
+    left: 1280px;
+    top: 590px;
+}
+
+.c12{
+    left: 1320px;
+    top: 540px;
+}
+.c12_2{
+    top: 535px;
+    left: 1300px;
+}
+.c13{
+    left: 1335px;
+    top: 485px;
+}
+.c13_2{
+    top: 490px;
+    left: 1315px;
+}
+.c14{
+    top: 410px;
+    left: 1350px;
+}
+.c14_2{
+    top: 420px;
+    left: 1320px;
+}
+
+.c15{
+    top: 345px;
+    left: 1335px;
+}
+.c15_2{
+    top: 360px;
+    left: 1305px;
+}
+
+.c16{
+    top: 280px;
+    left: 1316px;
+}
+.c16_2{
+    top: 310px;
+    left: 1290px;
+}
+
+.c17{
+    top: 230px;
+    left: 1280px;
+}
+.c17_2{
+    top: 260px;
+    left: 1260px;
+}
+
+.c18{
+    left: 1230px;
+    top: 190px;
+}
+.c18_2{
+    left: 1190px;
+    top: 210px;
+}
+
+.c19{
+    top: 140px;
+    left: 1120px;
+}
+.c19_2{
+    top: 170px;
+    left: 1105px;
+}
+
+.c20{
+    top: 135px;
+    left: 1050px;
+}
+.c20_2{
+    top: 175px;
+    left: 1040px;
+}
+
+.c21{
+    top: 132px;
+    left: 987px;
+}
+.c21_2{
+    top: 175px;
+    left: 983px;
+}
+
+.c22{
+    top: 135px;
+    left: 930px;
+}
+.c22_2{
+    top: 180px;
+    left: 925px;
+}
+
+.c23{
+    top: 130px;
+    left: 867px;
+}
+.c23_2{
+    top: 180px;
+    left: 860px;
+}
+
+.c24{
+    left: 800px;
+    top: 130px;
+}
+.c24_2{
+    left: 795px;
+    top: 180px;
+}
+
+.c25{
+    top: 130px;
+    left: 742px;
+}
+.c25_2{
+    top: 180px;
+    left: 740px;
+}
+
+.c26{
+    top: 130px;
+    left: 683px;
+}
+.c26_2{
+    top: 174px;
+    left: 676px;
+}
+
+.c27{
+    left: 590px;
+    top: 152px;
+}
+.c27_2{
+    left: 630px;
+    top: 205px;
+}
+
+.c28{
+    left: 545px;
+    top: 190px;
+}
+.c28_2{
+    left: 590px;
+    top: 235px;
+}
+
+.c29{
+    top: 260px;
+    left: 550px;
+}
+.c29_2{
+    top: 250px;
+    left: 520px;
+}
+
+.c30{
+    top: 305px;
+    left: 520px;
+}
+.c30_2{
+    top: 304px;
+    left: 495px;
+}
+
+.c31{
+    top: 360px;
+    left: 505px;
+    
+}
+.c31_2{
+    top: 370px;
+    left: 480px;
+}
+
+.c32{
+    top: 425px;
+    left: 510px;
+}
+.c32_2{
+    top: 440px;
+    left: 480px;
+}
+
+.c33{
+    top: 495px;
+    left: 492px;
+    
+}
+.c33_2{
+    top: 489px;
+    left: 540px;
+}
+
+.c34{
+    left: 520px;
+    top: 550px;
+}
+.c34_2{
+    top: 535px;
+    left: 560px;
+}
+
+.c35{
+    top: 560px;
+    left: 585px;
+}
+.c35_2{
+    top: 600px;
+    left: 575px;
+}
+
+.c36{
+    top: 625px;
+    left: 620px;
+}
+.c36_2{
+    top: 605px;
+    left: 645px;
+}
+
+.c37{
+    top: 645px;
+    left: 680px;
+}
+.c37_2{
+    top: 615px;
+    left: 697px;
+}
+
+.c38{
+    left: 740px;
+    top: 645px;
+}
+.c38_2{
+    left: 750px;
+    top: 616px;
+}
+
+.c39{
+    left: 805px;
+    top: 645px;
+}
+.c39_2{
+    left: 815px;
+    top: 620px;
+}
+
+.c40{
+    top: 640px;
+    left: 865px;
+}
+.c40_2{
+    top: 618px;
+    left: 865px;
+}
+
+.c41{
+    top: 640px;
+    left: 925px;
+}
+.c41_2{
+    top: 620px;
+    left: 930px;
+}
+
+.c42{
+    top: 640px;
+    left: 990px;
+}
+.c42_2{
+    top: 620px;
+    left: 1000px;
+}
+
+.c43{
+    top: 640px;
+    left: 1060px;
+}
+.c43_2{
+    top: 615px;
+    left: 1070px;
+}
+
+.c44{
+    top: 630px;
+    left: 1125px;
+}
+.c44_2{
+    top: 605px;
+    left: 1120px;
+}
+
+.c45{
+    top: 580px;
+    left: 1190px;
+}
+.c45_2{
+    top: 560px;
+    left: 1180px;
+}
+
+.c46{
+    top: 500px;
+    left: 1195px;
+}
+.c46_2{
+    top: 530px;
+    left: 1245px;
+}
+.c47{
+    top: 452px;
+    left: 1205px;
+}
+.c47_2{
+    top: 470px;
+    left: 1260px;
+}
+
+.c48{
+    top: 402px;
+    left: 1200px;
+}
+.c48_2{
+    top: 410px;
+    left: 1255px;
+}
+
+.c49{
+    top: 355px;
+    left: 1190px;
+}
+.c49_2{
+    top: 355px;
+    left: 1233px;
+}
+
+.c50{
+    top: 260px;
+    left: 1160px;
+}
+.c50_2{
+    top: 310px;
+    left: 1195px;
+}
+
+.c51{
+    top: 270px;
+    left: 1092px;
+}
+.c51_2{
+    top: 245px;
+    left: 1115px;
+}
+
+.c52{
+    top: 265px;
+    left: 995px;
+}
+.c52_2{
+    top: 245px;
+    left: 1035px;
+}
+
+.c53{
+    top: 260px;
+    left: 920px;
+}
+.c53_2{
+    top: 245px;
+    left: 953px;
+}
+
+.c54{
+    top: 226px;
+    left: 845px;
+}
+.c54_2{
+    top: 276px;
+    left: 880px;
+}
+
+.c55{
+    top: 265px;
+    left: 790px;
+}
+.c55_2{
+    top: 240px;
+    left: 800px;
+}
+
+.c56{
+    top: 265px;
+    left: 728px;
+}
+.c56_2{
+    top: 240px;
+    left: 740px;
+}
+
+.c57{
+    top: 270px;
+    left: 680px;
+}
+.c57_2{
+    top: 246px;
+    left: 680px;
+}
+
+.c58{
+    top: 260px;
+    left: 617px;
+}
+.c58_2{
+    top: 320px;
+    left: 615px;
+}
+
+.c59{
+    top: 400px;
+    left: 570px;
+}
+.c59_2{
+    top: 405px;
+    left: 620px;
+}
+
+.c60{
+    top: 443px;
+    left: 620px;
+}
+.c60_2{
+    top: 480px;
+    left: 595px;
+}
+
+.c61{
+    top: 520px;
+    left: 620px;
+}
+.c61_2{
+    top: 500px;
+    left: 656px;
+}
+
+.c62{
+    top: 500px;
+    left: 693px;
+}
+.c62_2{
+    top: 555px;
+    left: 700px;
+}
+
+.c63{
+    top: 400px;
+    left: 910px;
+}
+.c63_2{
+    top: 460px;
+    left: 927px;
+}
+.puntuacion1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 150px;
+    font-family: diablo;
+    color: rgb(192, 17, 17);
+    width: 250px;
+    height: 150px;
+    left: 50px;
+    top: 50px;
+}
+.puntuacion2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 150px;
+    font-family: diablo;
+    color: rgb(192, 17, 17);
+    width: 250px;
+    height: 150px;
+    right: 50px;
+    top: 50px;
+}
+@font-face {
+    font-family: diablo;
+    src: url(../../assets/DiabloLight.ttf);
+}
+
+.eventos1{
+   
+    position: absolute;
+    left: 35px;
+    font-size: larger;
+    top: 200px;
+    width: 370px;
+    height: 720px;
+    font-family: diablo;
+    row-gap: 100px;
+}
+.eventos2{
+    font-size: larger;
+    position: absolute;
+    right: 0px;
+    top: 200px;
+    width: 370px;
+    height: 720px;
+    font-family: diablo;
+}
+ul{
+    line-height: 30px;
+}
+
+  button {
+    position: absolute;
+    top: 60px;
+    left: 885px;
+    /* Variables */
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+  }
+  
+  .button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+  }
+  
+  button:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+  }
